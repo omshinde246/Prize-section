@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    background-color: #090919;
+}
+
+h3{
+    color: #fff;
+}
+
+
+.prize-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.prize-card{
+    /* background-color: #ffffff; */
+    justify-content: center;
+    align-items: center;
+    border: 1.5px solid #fff;
+    border-radius: 10px;
+    margin: 15px;
+    height: 100%;
+    width: 300px;
+    /* box-shadow: 4px 6px rgba(233, 236, 238, 0.5); */
+}
+
+.prize-img{
+    margin: 0 0 0 25%;
+    margin-top: 20px;
+    height: 60%;
+    width: 50%;
+}
+
+.prize-text{
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    text-align: center !important;
+    font-size: 22px;
+    margin: auto;
+    width: 50%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+
+.prize-card:hover{
+    background-color: #fff;
+    border-radius: 10px;
+    transition: all 0.8s;
+}
+
+.prize-card:hover::after{
+    transition: all 0.8s;
+}
+
+.prize-card:hover .prize-text{
+    color: #090919;
+    /* transition: all 1s; */
+}
